@@ -18,9 +18,11 @@ RUN yum -y update; yum clean all; \
 
 # Install requirements.
 RUN yum -y install initscripts \
+ && yum -y update \
  && yum -y install \
       sudo \
       which \
+      ca-certificates \
  && yum clean all
 
 # Disable requiretty.

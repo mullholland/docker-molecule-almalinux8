@@ -22,6 +22,8 @@ RUN yum -y install initscripts \
  && yum -y install \
       sudo \
       which \
+      hostname \
+      procps-ng \
       ca-certificates \
  && yum clean all
 

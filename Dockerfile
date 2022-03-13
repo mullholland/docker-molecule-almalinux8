@@ -26,6 +26,7 @@ RUN yum -y install initscripts \
       hostname \
       procps-ng \
       ca-certificates \
+      iproute \
  && yum clean all
 
 # Disable requiretty.

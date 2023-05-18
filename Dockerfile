@@ -1,4 +1,4 @@
-FROM almalinux:8
+FROM almalinux:9
 
 LABEL maintainer="mullholland"
 LABEL build_update="2023-05-18"
